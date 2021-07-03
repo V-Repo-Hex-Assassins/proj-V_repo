@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Varta&display=swap');*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Varta', sans-serif;
+
+}
+
+body{
+background:#19123b;
+}
+.main_div{
+height:100vh;
+}
+.card{
+
+border:5px solid rgb(176,106,252);
+background:#212042;
+color: #57557a;
+border-radius:5%;
+}
+p{
+font-size:20px;
+font-weight: 500;
+}
+a{
+text-decoration:none;
+}
+.fab{
+display:flex;
+justify-content: center;
+align-items: center;
+border: 1px solid rgb(176,106,252);
+background: #2a284d;
+height: 50px;
+width: 50px;
+border-radius:50%;
+transition: all 0.2s linear;
+}
+.fab:hover{
+cursor:pointer;
+background:#aaafff;
+}
+.fa-linkedin{
+color:#56ABEC;
+}
+.fa-facebook{
+color:#1775f1;
+}
+.fa-instagram{
+color:#fe4164;
+}
+.division{
+width:100%;
+text-align: center;
+margin: 30px auto 20px;
+}
+.main-heading{
+font: 500;
+font-size:25px;
+}
+.myform{
+   padding: 0 25px 0 35px;
+}
+.form-control{
+border: 1px solid #57557a;
+border-radius: 2px;
+background:#212042;
+margin-bottom: 20px;
+letter-spacing:1px;
+}
+.form-control:focus{
+border: 1px solid #57557a;
+border-radius: 5px;
+box-shadow:none;
+background:#212042;
+letter-spacing:1px;
+color:white;
+}
+.bn{
+text-decoration: underline;
+}
+.bn:hove{
+  cursor:pointer;
+}
+.form-check-input{
+width: 1rem!important
+height: 1rem!important
+margin-top: 5px;
+}
+.btn-primary{
+background: linear-gradient(135deg ,rgba(172,106,252,1) 39%, rgba(116,17,255)100%)!important;
+border:none;
+border-radius:50px;
+}
+span{
+color:#f2ceff;
+}
+.reg{
+color:#57557a;
+text-decoration: none;
+
+}
+.reg:hover
+{
+color: white;
+text-decoration: none;
+}
+@media(max-width: 768px){
+.row{
+margin-right: 0px; 
+ margin-left: 0px;
+}
+}
